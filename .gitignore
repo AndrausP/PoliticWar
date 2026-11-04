@@ -1,0 +1,6 @@
+*.rbxlx
+*.rbxlx.lock
+*.rbxl
+rojo.log
+__pycache__/
+tools/data/preview.png

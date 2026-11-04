@@ -1,0 +1,54 @@
+{
+  "name": "DominioMundial",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": false,
+        "MaxPlayersInternal": 12,
+        "PreferredPlayersInternal": 12
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Compatibility",
+        "GlobalShadows": false,
+        "ClockTime": 12,
+        "Brightness": 2,
+        "Ambient": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "OutdoorAmbient": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client"
+      }
+    },
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/first"
+    }
+  }
+}
